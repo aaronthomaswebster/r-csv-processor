@@ -127,7 +127,7 @@ main <- function(input_path, output_path) {
     } else if (selection == 2) {
       calculate_new_column(data)
     } else if (selection == 3) {
-      print_column_names()
+      print_column_names(data)
     } else if (selection == 0) {
       print("Goodbye!")
     } else {
@@ -136,5 +136,5 @@ main <- function(input_path, output_path) {
   }
 }
 
-# Example usage
+# Run the main function
 main()
